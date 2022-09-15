@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Constants </title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+
+        // try{
+        //     const PI=3.141592653589793;   //reassigning const is not possible
+        //     PI = 3.14;
+        //     PI = PI + 10;
+        // }
+        // catch(err){
+        //     document.getElementById("demo").innerHTML = err;
+        // }
+
+
+        // const cars = ["Porsche", "Bugatti", "McLaren"]    // reassigning array in const is not possible but elements in array is posiible
+        // cars[0] = "Lamborghini";
+        // cars.push("Audi");
+        // document.getElementById("demo").innerHTML = cars;
+
+        const car = {type: "Porsche", model: "5000", color: "Blue"};    // reassigning array in const is not possible but elements in array is posiible
+        car.color = "Aqua";
+        car.Owner = "Sarthak";
+        document.getElementById("demo").innerHTML = "The Owner of This Car is " + car.Owner ;
+
+    </script>
+</body>
+</html>

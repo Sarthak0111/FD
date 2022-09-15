@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form </title>
+</head>
+<body>
+    <h1>Form: </h1>
+
+    <form action="">
+        <label  id="h1" for="fname" style="font-weight: bold;">First Name: </label><br>
+        <input type="text" size="200" placeholder="Enter Your First Name" required><br><br>
+
+        <label id="h2" for="lname" style="font-weight: bold;">Last Name: </label><br>
+        <input type="text" size="200" placeholder="Enter Your Last Name" required><br><br>
+
+        <label id="h3" for="email" style="font-weight: bold;">Email: </label><br>
+        <input type="email" size="200" placeholder="Enter Your email eg: 123@gmail.com" required><br><br>
+
+        <label id="h4" for="password" style="font-weight: bold;">Password: </label><br>
+        <input type="password" size="200" placeholder="Enter Your password" minlength="6" maxlength="30" required><br><br>
+
+        <label id="h5" for="Gender" style="font-weight: bold;">Gender: </label><br>
+        <select name="Gender-options" id="gend" style="width: 1370px;">
+            <option value="none">Choose your gender</option>
+            <option value="male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Transgender">Transgender</option>
+        </select>
+        <br>
+        <br>
+        <!-- <input type="text" size="200" placeholder="Male or Female"><br><br> -->
+       
+        <label id="h6" for="Message" style="font-weight: bold;">Message: </label><br>
+        <textarea rows="4" size="200" cols="184" name="comment" form="usrform" placeholder="Enter your Message"></textarea><br><br>
+
+        <input id="h7" type="checkbox" required>
+        <label for="text">I agree with the Terms & Conditions</label><br>
+
+        <label for="myfile"></label>
+        <input id="h8" type="file" name="myfile" multiple style="border: 2px ridge rgb(239, 211, 211); width: 1370px;" required><br><br>
+
+
+        div>
+    </form>
+    <script>
+        function myfunc(){
+            alert("you have submitted the form Successfully!!");
+        }
+    </script>
+    
+</body>
+</html>
